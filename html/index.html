@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="index.html"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="h1">
+          Welcome, if you would like to continue please fill the next Form
+        </h1>
+      </header>
+      <h4>Please don't skip anything bellow</h4>
+      <form class="form" id="form" action="/Submit" method="get">
+        <div class="form-inputs">
+          <label>Name</label>
+          <input id="name" type="text" name="name" placeholder="Ej. Gustavo" />
+          <p id="errorName"></p>
+
+          <label> Last Name </label>
+          <input
+            id="lastName"
+            type="text"
+            name="lastName"
+            placeholder="Ej. Franco"
+          />
+          <p id="errorLastName"></p>
+
+          <label>Email</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Ej. Something@gmail.com"
+          />
+          <p id="errorEmail"></p>
+
+          <label>Password</label>
+          <input id="password" type="password" name="password" />
+          <p id="errorPassword"></p>
+
+          <label>Password Confirmation</label>
+          <input
+            id="passwordConfirmation"
+            type="password"
+            name="passwordConfirmation"
+          />
+          <p id="errorPasswordConfirmation"></p>
+
+          <label>Phone</label>
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            placeholder="Ej. 1234-5678"
+          />
+          <p id="errorPhone"></p>
+
+          <label>Age</label>
+          <input id="age" type="number" name="age" placeholder="Ej. 25" />
+          <p id="errorAge"></p>
+
+          <label>Website</label>
+          <input id="website" type="url" name="website" />
+          <p id="errorWebsite"></p>
+
+          <label>Level of experience</label>
+          <input id="experience" type="range" name="experience" />
+          <p id="errorExperience"></p>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
