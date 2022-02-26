@@ -42,6 +42,11 @@ h4 {
   margin-bottom: 10px;
 }
 
+label:hover {
+  background-color: red;
+  color: white;
+}
+
 .form-inputs input {
   border: 1px solid black;
   border-radius: 5px;
@@ -63,5 +68,4 @@ button {
   border: solid 1px black;
   border-radius: 10px;
   margin-left: 255px;
-  
 }
